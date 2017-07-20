@@ -21,7 +21,7 @@ Maze MazeGenerator::generateBlank(unsigned int width, unsigned int height) {
                 tempCell.setWall(0, 2, Wall("+"));
             }
 
-            // Generally, every wall will have a bottom and right wall
+            // Generally, every cell will have a bottom and right wall
             tempCell.setWall(1, 1, Wall("   "));
             tempCell.setWall(2, 1, Wall("|"));
             tempCell.setWall(1, 2, Wall("---"));
